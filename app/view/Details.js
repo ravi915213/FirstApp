@@ -1,0 +1,11 @@
+Ext.define('FirstApp.view.Details',{
+    extend:'Ext.Panel',
+    xtype:'details',
+    config:{
+        layout:'fit',
+        tpl:'<h1>{year}</h1><h3>{iphone}</h3>',
+        scrollable:true,
+        styleHtmlContent:true,
+        styleHtmlCls:'details'
+    }
+})
